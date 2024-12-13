@@ -33,7 +33,7 @@ public class JwRPC : ModuleRules
 			new string[]
 			{
 
-				
+                "VerseCompiler"
                 
 				// ... add private dependencies that you statically link with here ...	
 			});

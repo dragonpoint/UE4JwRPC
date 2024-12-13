@@ -5,7 +5,8 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "JsonValue.h"
+#include "Runtime/Json/Public/Dom/JsonValue.h"
+#include "Runtime/JsonUtilities/Public/JsonObjectConverter.h"
 #include "IWebSocket.h"
 #include "Tickable.h"
 
