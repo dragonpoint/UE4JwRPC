@@ -7,9 +7,10 @@ public class JwRPC : ModuleRules
 	public JwRPC(ReadOnlyTargetRules Target) : base(Target)
 	{
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+        PrecompileForTargets = PrecompileTargetsType.Any;
         //bFasterWithoutUnity = true;
-		
-		PrivateIncludePaths.AddRange(
+
+        PrivateIncludePaths.AddRange(
 			new string[] {
 				// ... add other private include paths required here ...
             });
@@ -32,8 +33,7 @@ public class JwRPC : ModuleRules
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
-
-                "VerseCompiler"
+                //"VerseCompiler"
                 
 				// ... add private dependencies that you statically link with here ...	
 			});

@@ -2,7 +2,7 @@
 
 #include "JwRPC.h"
 #include "Runtime/Core/Public/HAL/IConsoleManager.h"
-#include "Runtime/VerseCompiler/Public/uLang/Toolchain/CommandLine.h"
+//#include "Runtime/VerseCompiler/Public/uLang/Toolchain/CommandLine.h"
 #include "Runtime/Json/Public/Policies/CondensedJsonPrintPolicy.h"
 #include "JsonBP.h"
 #include "WebSocketsModule.h"
